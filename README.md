@@ -41,7 +41,7 @@
       );
     }
 
-    function Hero() {
+  function Hero() {
       return (
         <section id="home" className="bg-[#F5F5F5] py-20 relative">
           <div className="container mx-auto text-center">
@@ -54,7 +54,7 @@
       );
     }
 
-    function ProductCard({ name, description, price }) {
+  function ProductCard({ name, description, price }) {
       return (
         <div className="bg-[#F5F5F5] p-6 rounded-lg shadow-md relative">
           <div className="h-48 bg-[#1A3C34] mb-4 rounded flex items-center justify-center">
@@ -75,7 +75,7 @@
       );
     }
 
-    function Products() {
+  function Products() {
       const products = [
         { name: "Organic Pitaya & Manuka Honey Shampoo", description: "Gently cleanses and hydrates curls with a tropical glow.", price: 14.99 },
         { name: "Organic Pitaya & Manuka Honey Conditioner", description: "Detangles and moisturizes curls with a silky finish.", price: 16.99 },
@@ -83,7 +83,7 @@
         { name: "Organic Pitaya & Manuka Honey Serum Treatment", description: "Repairs and adds shine with lightweight, non-greasy hydration.", price: 22.99 },
       ];
 
-      return (
+     return (
         <section id="products" className="py-16 bg-[#F5F5F5]">
           <div className="container mx-auto">
             <h2 className="text-4xl playfair font-bold text-center text-[#1A3C34] mb-8">Our Products</h2>
