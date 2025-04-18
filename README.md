@@ -83,7 +83,7 @@
         { name: "Organic Pitaya & Manuka Honey Serum Treatment", description: "Repairs and adds shine with lightweight, non-greasy hydration.", price: 22.99 },
       ];
 
-     return (
+  return (
         <section id="products" className="py-16 bg-[#F5F5F5]">
           <div className="container mx-auto">
             <h2 className="text-4xl playfair font-bold text-center text-[#1A3C34] mb-8">Our Products</h2>
@@ -97,7 +97,7 @@
       );
     }
 
-    function About() {
+  function About() {
       return (
         <section id="about" className="py-16 bg-[#F5F5F5]">
           <div className="container mx-auto text-center">
@@ -110,7 +110,7 @@
       );
     }
 
-    function Contact() {
+  function Contact() {
       return (
         <section id="contact" className="py-16 bg-[#F5F5F5]">
           <div className="container mx-auto text-center">
@@ -123,7 +123,7 @@
       );
     }
 
-    function Footer() {
+  function Footer() {
       return (
         <footer className="bg-[#1A3C34] text-[#F5F5F5] py-6">
           <div className="container mx-auto text-center">
@@ -137,7 +137,7 @@
       );
     }
 
-    function App() {
+  function App() {
       return (
         <div>
           <Header />
@@ -150,7 +150,7 @@
       );
     }
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
+  const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(<App />);
   </script>
 </body>
